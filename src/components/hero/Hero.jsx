@@ -3,6 +3,7 @@ import { IoIosSearch } from "react-icons/io";
 import { AiOutlinePropertySafety } from "react-icons/ai";
 import PropTypes from "prop-types";
 import { CiCirclePlus } from "react-icons/ci";
+export const hero = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Findian-farmer&psig=AOvVaw207j0BNe62sIq6aN1Mzdp-&ust=1745009196571000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOj01f3334wDFQAAAAAdAAAAABAK"
 export const User1 = "https://cdn-icons-png.flaticon.com/128/6997/6997662.png";
 export const User2 = "https://cdn-icons-png.flaticon.com/128/236/236832.png";
 export const User3 = "https://cdn-icons-png.flaticon.com/128/236/236831.png";
@@ -15,7 +16,7 @@ export const Hero = () => {
         <Container className="flex items-center justify-between md:flex-row flex-col">
           <div className="w-full md:w-1/2 text-white pr-12">
             <Title level={3} className="text-white">
-              Build, sell & collect digital items.
+              Grow and sell your crops online.
             </Title>
             <Body className="leading-7 text-gray-200 my-8">
               Nulla facilisi. Maecenas ac tellus ut ligula interdum convallis. Nullam dapibus on erat in dolor posuere, none hendrerit lectus ornare. Suspendisse sit amet turpina sagittis, ultrices
@@ -27,13 +28,13 @@ export const Hero = () => {
                 <Title level={4} className=" text-white">
                   842M
                 </Title>
-                <Body className="leading-7 text-gray-200">Total Product</Body>
+                <Body className="leading-7 text-gray-200">Total Crops</Body>
               </div>
               <div>
                 <Title level={4} className=" text-white">
                   842M
                 </Title>
-                <Body className="leading-7 text-gray-200">Total Auction</Body>
+                <Body className="leading-7 text-gray-200">Total Biddings</Body>
               </div>
               <div>
                 <Title level={4} className=" text-white">
@@ -44,8 +45,8 @@ export const Hero = () => {
             </div>
           </div>
           <div className="w-full md:w-1/2 my-16 relative py-16">
-            <img src="../images/home/hero.webp" alt="" />
-            <div className="horiz-move absolute md:top-28 top-8 left-0">
+            <img src="../images/home/hero.jpg" alt="" className="rounded-3xl" />
+            <div className="horiz-move absolute md:top-28 top-8 left-[-20px]">
               <Box title="Proof of quality" desc="Lorem Ipsum Dolar Amet" />
             </div>
             <div className="horiz-move absolute bottom-72 right-0">
@@ -53,7 +54,7 @@ export const Hero = () => {
             </div>
 
             <div className="px-5 py-4 bg-white shadow-md flex items-center gap-5 rounded-xl ml-5 -mt-5 vert-move w-1/2">
-              <Title>58M Happy Client</Title>
+              <Title>58M Happy Farmers</Title>
               <div className="flex items-center">
                 <ProfileCard className="border-2 border-white">
                   <img src={User1} alt="User1" className="w-full h-full object-cover" />
@@ -92,7 +93,7 @@ const SearchBox = () => {
           <div className="absolute inset-y-0 start-2 flex items-center ps-3 pointer-events-none">
             <IoIosSearch color="black" size={25} />
           </div>
-          <input type="search" id="default-search" className="block shadow-md w-full p-6 ps-16 text-sm text-gray-800 rounded-full bg-gray-50 outline-none" placeholder="Search product..." />
+          <input type="search" id="default-search" className="block shadow-md w-full p-6 ps-16 text-sm text-gray-800 rounded-full bg-gray-50 outline-none" placeholder="Search for crops..." />
           <PrimaryButton className="absolute end-2.5 bottom-2">Search</PrimaryButton>
         </div>
       </form>

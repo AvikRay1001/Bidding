@@ -67,19 +67,19 @@ export const Header = () => {
             </div>
             <div className="flex items-center gap-8 icons">
               <div className="hidden lg:flex lg:items-center lg:gap-8">
-                <IoSearchOutline size={23} className={`${isScrolled || !isHomePage ? "text-black" : "text-white"}`} />
-                {role === "buyer" && (
+                {/* <IoSearchOutline size={23} className={`${isScrolled || !isHomePage ? "text-black" : "text-white"}`} /> */}
+                {/* {role === "buyer" && (
                   <CustomNavLink href="/seller/login" className={`${isScrolled || !isHomePage ? "text-black" : "text-white"}`}>
                     Become a Seller
                   </CustomNavLink>
-                )}
-                <CustomNavLink href="/login" className={`${isScrolled || !isHomePage ? "text-black" : "text-white"}`}>
+                )} */}
+                {/* <CustomNavLink href="/login" className={`${isScrolled || !isHomePage ? "text-black" : "text-white"}`}>
                   Sign in
                 </CustomNavLink>
                 <CustomNavLink href="/register" className={`${!isHomePage || isScrolled ? "bg-green" : "bg-white"} px-8 py-2 rounded-full text-primary shadow-md`}>
                   Join
-                </CustomNavLink>
-                <CustomNavLink href="/dashboard">
+                </CustomNavLink> */}
+                <CustomNavLink>
                   <ProfileCard>
                     <img src={User1} alt="" className="w-full h-full object-cover" />
                   </ProfileCard>
@@ -87,19 +87,19 @@ export const Header = () => {
               </div>
               <div className={`icon flex items-center justify-center gap-6 ${isScrolled || !isHomePage ? "text-primary" : "text-white"}`}>
                 <button onClick={toggleMenu} className="lg:hidden w-10 h-10 flex justify-center items-center bg-black text-white focus:outline-none">
-                  {isOpen ? <AiOutlineClose size={24} /> : <AiOutlineMenu size={24} />}
+                  {isOpen ? <AiOutlineMenu size={24} /> : <AiOutlineMenu size={24} />}
                 </button>
               </div>
             </div>
 
             {/* Responsive Menu if below 768px */}
-            <div ref={menuRef} className={`lg:flex lg:items-center lg:w-auto w-full p-5 absolute right-0 top-full menu-container ${isOpen ? "open" : "closed"}`}>
+            {/* <div ref={menuRef} className={`lg:flex lg:items-center lg:w-auto w-full p-5 absolute right-0 top-full menu-container ${isOpen ? "open" : "closed"}`}>
               {menulists.map((list) => (
                 <li href={list.path} key={list.id} className="uppercase list-none">
                   <CustomNavLink className="text-white">{list.link}</CustomNavLink>
                 </li>
               ))}
-            </div>
+            </div> */}
           </nav>
         </Container>
       </header>
