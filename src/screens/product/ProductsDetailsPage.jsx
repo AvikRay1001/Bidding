@@ -17,12 +17,12 @@ export const ProductsDetailsPage = () => {
           <div className="flex justify-between gap-8">
             <div className="w-1/2">
               <div className="h-[70vh]">
-                <img src="https://bidout-wp.b-cdn.net/wp-content/uploads/2022/10/Image-14.jpg" alt="" className="w-full h-full object-cover rounded-xl" />
+                <img src="https://media.istockphoto.com/id/965148388/photo/green-ripening-soybean-field-agricultural-landscape.jpg?s=612x612&w=0&k=20&c=cEVP3uj34-5obt-Jf_WI3O9qfP6tVrFaQIv1rBvvpzc=" alt="" className="w-full h-full object-cover rounded-xl" />
               </div>
             </div>
             <div className="w-1/2">
               <Title level={2} className="capitalize">
-                Couple Wedding Ring
+                Crops Top Quality
               </Title>
               <div className="flex gap-5">
                 <div className="flex text-green ">
@@ -37,9 +37,9 @@ export const ProductsDetailsPage = () => {
               <br />
               <Body>Korem ipsum dolor amet, consectetur adipiscing elit. Maece nas in pulvinar neque. Nulla finibus lobortis pulvinar. Donec a consectetur nulla.</Body>
               <br />
-              <Caption>Item condition: New</Caption>
+              <Caption>Crops condition: New</Caption>
               <br />
-              <Caption>Item Verifed: Yes</Caption>
+              <Caption>Crops Verifed: Yes</Caption>
               <br />
               <Caption>Time left:</Caption>
               <br />
@@ -70,10 +70,10 @@ export const ProductsDetailsPage = () => {
                 Timezone: <Caption>UTC 0</Caption>
               </Title>
               <Title className="flex items-center gap-2 my-5">
-                Price:<Caption>$200 </Caption>
+                Price:<Caption>₹200 </Caption>
               </Title>
               <Title className="flex items-center gap-2">
-                Current bid:<Caption className="text-3xl">$500 </Caption>
+                Current bid:<Caption className="text-3xl">₹500 </Caption>
               </Title>
               <div className="p-5 px-10 shadow-s3 py-8">
                 <form className="flex gap-3 justify-between">
@@ -170,7 +170,7 @@ export const ProductsDetailsPage = () => {
                     </div>
                     <div className="w-1/2">
                       <div className="h-[60vh] p-2 bg-green rounded-xl">
-                        <img src="https://bidout-wp.b-cdn.net/wp-content/uploads/2022/10/Image-14.jpg" alt="" className="w-full h-full object-cover rounded-xl" />
+                        <img src="https://media.istockphoto.com/id/965148388/photo/green-ripening-soybean-field-agricultural-landscape.jpg?s=612x612&w=0&k=20&c=cEVP3uj34-5obt-Jf_WI3O9qfP6tVrFaQIv1rBvvpzc=" alt="" className="w-full h-full object-cover rounded-xl" />
                       </div>
                     </div>
                   </div>

@@ -7,10 +7,10 @@ export const Home = () => {
       <Hero />
       <CategorySlider />
       <ProductList />
-      <TopSeller />
+      {/* <TopSeller /> */}
       <Process />
       <Trust />
-      <TopCollection />
+      {/* <TopCollection /> */}
     </>
   );
 };

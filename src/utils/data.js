@@ -294,13 +294,13 @@ export const processList = [
   {
     id: "01",
     title: "Sign up",
-    desc: "Sign your car up via our contact form or via the WhatsApp chat on the website. Send us a couple of pictures of the car that you want to put up for auction.",
+    desc: "Sign your crops up via our contact form. Send us a couple of pictures of the crops that you want to put up for auction.",
     cover: "https://rainbowthemes.net/themes/nuron/wp-content/uploads/2023/01/shape-7.png",
   },
   {
     id: "02",
     title: "Auction goes online",
-    desc: "As soon as we collect enough cars for the auction (we strive for 25 to 40 cars per auction), the auction will show up on the website.",
+    desc: "As soon as we collect enough crops for the auction, the auction will show up on the website.",
     cover: "https://rainbowthemes.net/themes/nuron/wp-content/uploads/2023/09/auction.png",
   },
   {
@@ -312,7 +312,7 @@ export const processList = [
   {
     id: "04",
     title: "The last steps",
-    desc: "After the car is sold to the highest bidder, all the cars will be collected by the buyers on a determined date.",
+    desc: "After the crop is sold to the highest bidder, all the crops will be collected by the buyers on a determined date.",
     cover: "https://rainbowthemes.net/themes/nuron/wp-content/uploads/2023/09/auction-3.png",
   },
 ];
